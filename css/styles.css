@@ -1,0 +1,90 @@
+.loader {
+  border: 16px solid #ffffff;
+  border-top: 16px solid;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  animation: spin 3s linear infinite;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.details {
+  text-decoration: none;
+  padding: 5px;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+}
+
+.number {
+  padding: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.name {
+  margin-right: 40px;
+  font-size: 0.9em;
+}
+
+.contact-link {
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.contact {
+  max-width: 1000px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.form-error {
+  display: none;
+  color: red;
+}
+
+form {
+  padding: 2em;
+  border-radius: 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  background-color: blue;
+  width: 75px;
+  padding: 5px;
+  color: #ffffff;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
